@@ -1,0 +1,29 @@
+﻿<Window 
+    x:Class="CustomCheckComboBox.MainWindow" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Title="MainWindow" 
+    Height="62" 
+    Width="372" 
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    xmlns:local="clr-namespace:CustomCheckComboBox"
+    WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Vertical" >
+            <local:CustomComboBoxEdit 
+                HorizontalAlignment="Center" 
+                ImmediatePopup="True" 
+                FocusPopupOnOpen="False" 
+                x:Name="multiSelectionCombo" 
+                VerticalAlignment="Center" 
+                Width="350" 
+                AutoComplete="True"
+                SeparatorString=";"
+                ValidateOnTextInput="True">
+                <dxe:ComboBoxEdit.StyleSettings>
+                    <dxe:CheckedComboBoxStyleSettings/>
+                </dxe:ComboBoxEdit.StyleSettings>
+            </local:CustomComboBoxEdit>
+        </StackPanel>
+    </Grid>
+</Window>
