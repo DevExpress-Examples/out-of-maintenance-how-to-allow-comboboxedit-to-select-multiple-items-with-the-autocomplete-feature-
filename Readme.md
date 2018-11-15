@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomComboBoxEdit.cs](./CS/CustomCheckComboBox/CustomComboBoxEdit.cs) (VB: [CustomComboBoxEdit.vb](./VB/CustomCheckComboBox/CustomComboBoxEdit.vb))
+* [CustomComboBoxEditSettings.cs](./CS/CustomCheckComboBox/CustomComboBoxEditSettings.cs) (VB: [CustomComboBoxEditSettings.vb](./VB/CustomCheckComboBox/CustomComboBoxEditSettings.vb))
+* [CustomEditStrategy.cs](./CS/CustomCheckComboBox/CustomEditStrategy.cs) (VB: [CustomEditStrategy.vb](./VB/CustomCheckComboBox/CustomEditStrategy.vb))
+* [ItemsIndexFinder.cs](./CS/CustomCheckComboBox/ItemsIndexFinder.cs) (VB: [ItemsIndexFinder.vb](./VB/CustomCheckComboBox/ItemsIndexFinder.vb))
+* [MainWindow.xaml](./CS/CustomCheckComboBox/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/CustomCheckComboBox/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/CustomCheckComboBox/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomCheckComboBox/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to allow ComboBoxEdit to select multiple items with the autocomplete feature
 
 
