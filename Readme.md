@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/CustomCheckComboBox/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomCheckComboBox/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CustomCheckComboBox/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CustomCheckComboBox/MainWindow.xaml))
+* [Person.cs](./CS/CustomCheckComboBox/Person.cs) (VB: [Person.vb](./VB/CustomCheckComboBox/Person.vb))
+<!-- default file list end -->
 # How to allow ComboBoxEdit to select multiple items with the autocomplete feature
 
 
