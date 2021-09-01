@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCheckComboBox", "CustomCheckComboBox\CustomCheckComboBox.csproj", "{D411785B-9C06-46EF-BC0D-148E089A3769}"
 EndProject
 Global
