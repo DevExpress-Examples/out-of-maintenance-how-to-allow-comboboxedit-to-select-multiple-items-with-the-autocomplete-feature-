@@ -21,7 +21,7 @@ namespace CustomCheckComboBox {
         }
 
         private bool CheckIsSeparatorInEndOfString(string text) {
-            List<string> items = text.Split(CurrentEditor.SeparatorString.Split(), StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+            List<string> items = text.Split(CurrentEditor.SeparatorString.Split(), StringSplitOptions.RemoveEmptyEntries).ToList() as List<string>;
             if (items.Last().Length == 1 && FindItemIndexByText(items.Last()) == -1) {
                 EditBox.Text = CurrentEditor.DisplayText;
                 CurrentEditor.SelectionStart = CurrentEditor.DisplayText.Length;
@@ -37,7 +37,7 @@ namespace CustomCheckComboBox {
 
         private void SearchItemsListRefreshing(string editText) {
             searchItems.Clear();
-            searchItems = editText.Split(CurrentEditor.SeparatorString.Split(), StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+            searchItems = editText.Split(CurrentEditor.SeparatorString.Split(), StringSplitOptions.RemoveEmptyEntries).ToList() as List<string>;
         }
         protected override void ProcessChangeText(string editText, bool updateAutoSearchSelection) {
             if (editText != String.Empty) {
@@ -216,7 +216,7 @@ namespace CustomCheckComboBox {
             List<string> selectedItems = CurrentEditor.Text.
                                                        Substring(CurrentEditor.SelectionStart, length).
                                                        Split(CurrentEditor.SeparatorString.Split(), StringSplitOptions.RemoveEmptyEntries).
-                                                       ToList<string>(); ;
+                                                       ToList() as List<string>; ;
             List<string> deletedItems = searchItems.Intersect(selectedItems).ToList();
             foreach (string item in deletedItems) {
                 searchItems.Remove(item);
