@@ -43,7 +43,7 @@ Namespace CustomCheckComboBox
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
             FillCombo()
         End Sub
 
@@ -55,9 +55,9 @@ Namespace CustomCheckComboBox
             persons.Add(New Person() With {.Id = 4, .IsActive = True, .Name = "Andrew"})
             persons.Add(New Person() With {.Id = 5, .IsActive = True, .Name = "Alexey"})
             persons.Add(New Person() With {.Id = 6, .IsActive = True, .Name = "Michael"})
-            multiSelectionCombo.ItemsSource = persons
-            multiSelectionCombo.DisplayMember = "Name"
-            multiSelectionCombo.ValueMember = "Id"
+            Me.multiSelectionCombo.ItemsSource = persons
+            Me.multiSelectionCombo.DisplayMember = "Name"
+            Me.multiSelectionCombo.ValueMember = "Id"
         End Sub
     End Class
 End Namespace
